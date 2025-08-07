@@ -23,7 +23,7 @@ namespace INFINIONGPT.Services.OpenAI
                 DeploymentName = _deploymentName,
                 Messages =
                  {
-                     new ChatRequestSystemMessage("You are an AI assistance that helps people find solutions to problem easily"),
+                     new ChatRequestSystemMessage("You are an AI assistance that helps people find solutions by using the connected knowledge store"),
                      new ChatRequestSystemMessage("Be as friendly as possible"),
                      new ChatRequestUserMessage(message)
                  },
